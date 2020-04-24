@@ -90791,11 +90791,6 @@ Token serial (informational only)
     */
     Ipatokenserial *string `json:"ipatokenserial,omitempty"`
   
-    /*
-Key
-Token secret (Base32; default: random)
-    */
-    Ipatokenotpkey *string `json:"ipatokenotpkey,omitempty"`
   
     /*
 Algorithm
