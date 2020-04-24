@@ -90791,11 +90791,6 @@ Token serial (informational only)
     */
     Ipatokenserial *string `json:"ipatokenserial,omitempty"`
   
-    /*
-Key
-Token secret (Base32; default: random)
-    */
-    Ipatokenotpkey *string `json:"ipatokenotpkey,omitempty"`
   
     /*
 Algorithm
@@ -91292,43 +91287,6 @@ func (out *Otptoken) UnmarshalJSON(data []byte) error {
         
       } else {
         return fmt.Errorf("unexpected value for field Ipatokenserial: %v (%v)", raw, reflect.TypeOf(raw))
-      }
-    
-  }
-  
-  if in.Ipatokenotpkey != nil {
-    raw := in.Ipatokenotpkey
-    plainV, plainOk := raw.(string)
-    sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []string
-    sliceOk := sliceWrapperOk
-    if sliceWrapperOk {
-      for _, rawItem := range sliceWrapperV {
-        
-        itemV, itemOk := rawItem.(string)
-        
-        if !itemOk {
-          sliceOk = false
-          break
-        }
-        
-        sliceV = append(sliceV, itemV)
-        
-      }
-    }
-    
-      if plainOk {
-        out.Ipatokenotpkey = &plainV
-      } else if sliceOk {
-        
-          if len(sliceV) == 1 {
-            out.Ipatokenotpkey = &sliceV[0]
-          } else if len(sliceV) > 1 {
-            return fmt.Errorf("unexpected value for field Ipatokenotpkey: %v; expected at most one element", raw)
-          }
-        
-      } else {
-        return fmt.Errorf("unexpected value for field Ipatokenotpkey: %v (%v)", raw, reflect.TypeOf(raw))
       }
     
   }
