@@ -91291,6 +91291,7 @@ func (out *Otptoken) UnmarshalJSON(data []byte) error {
     
   }
   
+  
   if in.Ipatokenotpalgorithm != nil {
     raw := in.Ipatokenotpalgorithm
     plainV, plainOk := raw.(string)
