@@ -8034,49 +8034,49 @@ match the common name exactly
 
 Valid not after from this date (YYYY-mm-dd)
     */
-    ValidnotafterFrom *time.Time `json:"validnotafter_from,omitempty"`
+    ValidnotafterFrom *interface{} `json:"validnotafter_from,omitempty"`
   
     /*
 
 Valid not after to this date (YYYY-mm-dd)
     */
-    ValidnotafterTo *time.Time `json:"validnotafter_to,omitempty"`
+    ValidnotafterTo *interface{} `json:"validnotafter_to,omitempty"`
   
     /*
 
 Valid not before from this date (YYYY-mm-dd)
     */
-    ValidnotbeforeFrom *time.Time `json:"validnotbefore_from,omitempty"`
+    ValidnotbeforeFrom *interface{} `json:"validnotbefore_from,omitempty"`
   
     /*
 
 Valid not before to this date (YYYY-mm-dd)
     */
-    ValidnotbeforeTo *time.Time `json:"validnotbefore_to,omitempty"`
+    ValidnotbeforeTo *interface{} `json:"validnotbefore_to,omitempty"`
   
     /*
 
 Issued on from this date (YYYY-mm-dd)
     */
-    IssuedonFrom *time.Time `json:"issuedon_from,omitempty"`
+    IssuedonFrom *interface{} `json:"issuedon_from,omitempty"`
   
     /*
 
 Issued on to this date (YYYY-mm-dd)
     */
-    IssuedonTo *time.Time `json:"issuedon_to,omitempty"`
+    IssuedonTo *interface{} `json:"issuedon_to,omitempty"`
   
     /*
 
 Revoked on from this date (YYYY-mm-dd)
     */
-    RevokedonFrom *time.Time `json:"revokedon_from,omitempty"`
+    RevokedonFrom *interface{} `json:"revokedon_from,omitempty"`
   
     /*
 
 Revoked on to this date (YYYY-mm-dd)
     */
-    RevokedonTo *time.Time `json:"revokedon_to,omitempty"`
+    RevokedonTo *interface{} `json:"revokedon_to,omitempty"`
   
     /*
 Primary key only
@@ -33967,13 +33967,13 @@ Mark the token as disabled (default: false)
 Validity start
 First date/time the token can be used
     */
-    Ipatokennotbefore *time.Time `json:"ipatokennotbefore,omitempty"`
+    Ipatokennotbefore *interface{} `json:"ipatokennotbefore,omitempty"`
   
     /*
 Validity end
 Last date/time the token can be used
     */
-    Ipatokennotafter *time.Time `json:"ipatokennotafter,omitempty"`
+    Ipatokennotafter *interface{} `json:"ipatokennotafter,omitempty"`
   
     /*
 Vendor
@@ -34429,13 +34429,13 @@ Mark the token as disabled (default: false)
 Validity start
 First date/time the token can be used
     */
-    Ipatokennotbefore *time.Time `json:"ipatokennotbefore,omitempty"`
+    Ipatokennotbefore *interface{} `json:"ipatokennotbefore,omitempty"`
   
     /*
 Validity end
 Last date/time the token can be used
     */
-    Ipatokennotafter *time.Time `json:"ipatokennotafter,omitempty"`
+    Ipatokennotafter *interface{} `json:"ipatokennotafter,omitempty"`
   
     /*
 Vendor
@@ -34648,13 +34648,13 @@ Mark the token as disabled (default: false)
 Validity start
 First date/time the token can be used
     */
-    Ipatokennotbefore *time.Time `json:"ipatokennotbefore,omitempty"`
+    Ipatokennotbefore *interface{} `json:"ipatokennotbefore,omitempty"`
   
     /*
 Validity end
 Last date/time the token can be used
     */
-    Ipatokennotafter *time.Time `json:"ipatokennotafter,omitempty"`
+    Ipatokennotafter *interface{} `json:"ipatokennotafter,omitempty"`
   
     /*
 Vendor
@@ -48888,13 +48888,13 @@ Principal alias
 Kerberos principal expiration
 
     */
-    Krbprincipalexpiration *time.Time `json:"krbprincipalexpiration,omitempty"`
+    Krbprincipalexpiration *interface{} `json:"krbprincipalexpiration,omitempty"`
   
     /*
 User password expiration
 
     */
-    Krbpasswordexpiration *time.Time `json:"krbpasswordexpiration,omitempty"`
+    Krbpasswordexpiration *interface{} `json:"krbpasswordexpiration,omitempty"`
   
     /*
 Email address
@@ -49864,13 +49864,13 @@ Principal alias
 Kerberos principal expiration
 
     */
-    Krbprincipalexpiration *time.Time `json:"krbprincipalexpiration,omitempty"`
+    Krbprincipalexpiration *interface{} `json:"krbprincipalexpiration,omitempty"`
   
     /*
 User password expiration
 
     */
-    Krbpasswordexpiration *time.Time `json:"krbpasswordexpiration,omitempty"`
+    Krbpasswordexpiration *interface{} `json:"krbpasswordexpiration,omitempty"`
   
     /*
 Email address
@@ -50281,13 +50281,13 @@ Principal alias
 Kerberos principal expiration
 
     */
-    Krbprincipalexpiration *time.Time `json:"krbprincipalexpiration,omitempty"`
+    Krbprincipalexpiration *interface{} `json:"krbprincipalexpiration,omitempty"`
   
     /*
 User password expiration
 
     */
-    Krbpasswordexpiration *time.Time `json:"krbpasswordexpiration,omitempty"`
+    Krbpasswordexpiration *interface{} `json:"krbpasswordexpiration,omitempty"`
   
     /*
 Email address
@@ -59583,13 +59583,13 @@ Principal alias
 Kerberos principal expiration
 
     */
-    Krbprincipalexpiration *time.Time `json:"krbprincipalexpiration,omitempty"`
+    Krbprincipalexpiration *interface{} `json:"krbprincipalexpiration,omitempty"`
   
     /*
 User password expiration
 
     */
-    Krbpasswordexpiration *time.Time `json:"krbpasswordexpiration,omitempty"`
+    Krbpasswordexpiration *interface{} `json:"krbpasswordexpiration,omitempty"`
   
     /*
 Email address
@@ -60769,13 +60769,13 @@ Principal alias
 Kerberos principal expiration
 
     */
-    Krbprincipalexpiration *time.Time `json:"krbprincipalexpiration,omitempty"`
+    Krbprincipalexpiration *interface{} `json:"krbprincipalexpiration,omitempty"`
   
     /*
 User password expiration
 
     */
-    Krbpasswordexpiration *time.Time `json:"krbpasswordexpiration,omitempty"`
+    Krbpasswordexpiration *interface{} `json:"krbpasswordexpiration,omitempty"`
   
     /*
 Email address
@@ -61204,13 +61204,13 @@ Principal alias
 Kerberos principal expiration
 
     */
-    Krbprincipalexpiration *time.Time `json:"krbprincipalexpiration,omitempty"`
+    Krbprincipalexpiration *interface{} `json:"krbprincipalexpiration,omitempty"`
   
     /*
 User password expiration
 
     */
-    Krbpasswordexpiration *time.Time `json:"krbpasswordexpiration,omitempty"`
+    Krbpasswordexpiration *interface{} `json:"krbpasswordexpiration,omitempty"`
   
     /*
 Email address
@@ -67588,13 +67588,13 @@ Issuer DN
 Not Before
 
     */
-    ValidNotBefore time.Time `json:"valid_not_before,omitempty"`
+    ValidNotBefore interface{} `json:"valid_not_before,omitempty"`
   
     /*
 Not After
 
     */
-    ValidNotAfter time.Time `json:"valid_not_after,omitempty"`
+    ValidNotAfter interface{} `json:"valid_not_after,omitempty"`
   
     /*
 Fingerprint (SHA1)
@@ -68264,14 +68264,14 @@ func (out *Cert) UnmarshalJSON(data []byte) error {
   
   if true {
     raw := in.ValidNotBefore
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -68300,14 +68300,14 @@ func (out *Cert) UnmarshalJSON(data []byte) error {
   
   if true {
     raw := in.ValidNotAfter
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -69514,13 +69514,13 @@ Issuer DN
 Not Before
 
     */
-    ValidNotBefore time.Time `json:"valid_not_before,omitempty"`
+    ValidNotBefore interface{} `json:"valid_not_before,omitempty"`
   
     /*
 Not After
 
     */
-    ValidNotAfter time.Time `json:"valid_not_after,omitempty"`
+    ValidNotAfter interface{} `json:"valid_not_after,omitempty"`
   
     /*
 Fingerprint (SHA1)
@@ -70174,14 +70174,14 @@ func (out *Certreq) UnmarshalJSON(data []byte) error {
   
   if true {
     raw := in.ValidNotBefore
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -70210,14 +70210,14 @@ func (out *Certreq) UnmarshalJSON(data []byte) error {
   
   if true {
     raw := in.ValidNotAfter
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -90700,13 +90700,13 @@ Mark the token as disabled (default: false)
 Validity start
 First date/time the token can be used
     */
-    Ipatokennotbefore *time.Time `json:"ipatokennotbefore,omitempty"`
+    Ipatokennotbefore *interface{} `json:"ipatokennotbefore,omitempty"`
   
     /*
 Validity end
 Last date/time the token can be used
     */
-    Ipatokennotafter *time.Time `json:"ipatokennotafter,omitempty"`
+    Ipatokennotafter *interface{} `json:"ipatokennotafter,omitempty"`
   
     /*
 Vendor
@@ -91040,14 +91040,14 @@ func (out *Otptoken) UnmarshalJSON(data []byte) error {
   
   if in.Ipatokennotbefore != nil {
     raw := in.Ipatokennotbefore
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -91077,14 +91077,14 @@ func (out *Otptoken) UnmarshalJSON(data []byte) error {
   
   if in.Ipatokennotafter != nil {
     raw := in.Ipatokennotafter
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -98360,13 +98360,13 @@ Principal alias
 Kerberos principal expiration
 
     */
-    Krbprincipalexpiration *time.Time `json:"krbprincipalexpiration,omitempty"`
+    Krbprincipalexpiration *interface{} `json:"krbprincipalexpiration,omitempty"`
   
     /*
 User password expiration
 
     */
-    Krbpasswordexpiration *time.Time `json:"krbpasswordexpiration,omitempty"`
+    Krbpasswordexpiration *interface{} `json:"krbpasswordexpiration,omitempty"`
   
     /*
 Email address
@@ -99151,14 +99151,14 @@ func (out *Stageuser) UnmarshalJSON(data []byte) error {
   
   if in.Krbprincipalexpiration != nil {
     raw := in.Krbprincipalexpiration
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -99188,14 +99188,14 @@ func (out *Stageuser) UnmarshalJSON(data []byte) error {
   
   if in.Krbpasswordexpiration != nil {
     raw := in.Krbpasswordexpiration
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -104187,13 +104187,13 @@ Principal alias
 Kerberos principal expiration
 
     */
-    Krbprincipalexpiration *time.Time `json:"krbprincipalexpiration,omitempty"`
+    Krbprincipalexpiration *interface{} `json:"krbprincipalexpiration,omitempty"`
   
     /*
 User password expiration
 
     */
-    Krbpasswordexpiration *time.Time `json:"krbpasswordexpiration,omitempty"`
+    Krbpasswordexpiration *interface{} `json:"krbpasswordexpiration,omitempty"`
   
     /*
 Email address
@@ -104996,14 +104996,14 @@ func (out *User) UnmarshalJSON(data []byte) error {
   
   if in.Krbprincipalexpiration != nil {
     raw := in.Krbprincipalexpiration
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
@@ -105033,14 +105033,14 @@ func (out *User) UnmarshalJSON(data []byte) error {
   
   if in.Krbpasswordexpiration != nil {
     raw := in.Krbpasswordexpiration
-    plainV, plainOk := raw.(time.Time)
+    plainV, plainOk := raw.(interface{})
     sliceWrapperV, sliceWrapperOk := raw.([]interface{})
-    var sliceV []time.Time
+    var sliceV []interface{}
     sliceOk := sliceWrapperOk
     if sliceWrapperOk {
       for _, rawItem := range sliceWrapperV {
         
-        itemV, itemOk := rawItem.(time.Time)
+        itemV, itemOk := rawItem.(interface{})
         
         if !itemOk {
           sliceOk = false
