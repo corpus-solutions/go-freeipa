@@ -3,7 +3,6 @@
 package freeipa;
 
 import (
-  "time"
 	"encoding/json"
   "fmt"
   "reflect"
